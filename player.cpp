@@ -9,7 +9,12 @@
 #include "input.h"
 #include "bullet.h"
 
+
+
+
+//******************************************
 //グローバル変数
+//******************************************
 LPDIRECT3DTEXTURE9 g_pTexturePlayer = NULL;       //テクスチャへのポインタ
 LPDIRECT3DVERTEXBUFFER9 g_pVtxBuffPlayer = NULL;  //頂点バッファへのポインタ
 int g_nCounterAnimPlayer;      //アニメーションカウンター
@@ -100,6 +105,11 @@ void InitPlayer(void)
 
 	//頂点バッファをアンロックする
 	g_pVtxBuffPlayer->Unlock();
+
+	int a = 0;
+
+	int nData = 100;
+	nData++;
 }
 
 //-------------------------------
